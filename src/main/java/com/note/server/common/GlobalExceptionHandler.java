@@ -47,7 +47,7 @@ public class GlobalExceptionHandler {
 		urlInfo.setMessage(e.getMessage());
 		
 		UserInfo user = new UserInfo();
-		user.setId("1");
+		user.setId(1L);
 		user.setName("wsh");
 		user.setAge("30");
 		
